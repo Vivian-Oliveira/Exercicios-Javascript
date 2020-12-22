@@ -12,9 +12,13 @@ const sorteio = Number(Math.random() * 2);
 if(player1 === player2){
     alert('Empatou!')
 } 
-else if (sorteio === 0){
-}
-else if(player1 < player2){
+else if (sorteio === 0) {
+} else if(player1 < player2) {
+    alert('Jogador 1 ganhou!')
+} else if(player2 < player1) {
+    alert('Jogador 2 ganhou!')
+} else if(sorteio === 1) {
+} else if(player1 < player2) {
     alert('Jogador 1 ganhou!')
 } else {
     alert('Jogador 2 ganhou!')
