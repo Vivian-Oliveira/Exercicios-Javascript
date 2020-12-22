@@ -1,13 +1,14 @@
 //Escreva um programa que peca para o usuario digitar 2 numeros e calcule a media
 
-const n1 = Number(prompt('Digite o primeiro numero'));
-const n2 = Number(prompt('Digite o segundo numero'));
+// const nota1 = Number(prompt('Digite a primeira nota'));
+// const nota2 = Number(prompt('Digite a segunda nota'));
 
-const media = (n1 + n2) / 2;
+// const media = (nota1 + nota2) / 2;
+// alert(`A sua media e: ${media}`)
 
-if(media >= 7){
-    alert('Passou de ano!')
-} else {
-    alert('Reprovado!')
-}
+// if(media >= 7){
+//     alert('Passou de ano!')
+// } else {
+//     alert('Reprovado!')
+// }
 
