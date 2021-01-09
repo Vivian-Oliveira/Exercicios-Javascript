@@ -5,32 +5,25 @@ const calculadora = () => {
     output.innerHTML = valorUsuario;   
 }
 
-const somar = () => {
+const calcular = (operador) => {
     let valorUsuario2 = Number(prompt('Digite outro numero:'));
-    valorUsuario += valorUsuario2;
+    
+    switch(operador){
+        case '+':
+            valorUsuario += valorUsuario2;
+            break;
+        case 'X':
+            valorUsuario *= valorUsuario2;
+            break;
+        case '-':
+            valorUsuario -= valorUsuario2;
+            break;
+        case '/':
+            valorUsuario /= valorUsuario2;
+            
+    }
+
     calculadora();
 }
 
-const multiplicar = () => {
-    let valorUsuario2 = Number(prompt('Digite outro numero:'));
-    valorUsuario *= valorUsuario2;
-    calculadora();
-     
-}
 
-const subtrair = () => {
-    let valorUsuario2 = Number(prompt('Digite outro numero:'));
-    valorUsuario -= valorUsuario2;
-    calculadora();
-}
-
-const dividir = () => {
-    let valorUsuario2 = Number(prompt('Digite outro numero:'));
-    valorUsuario /= valorUsuario2;
-    calculadora();
-}
-
-// const limparTela = () => {
-//     mensagem = '';
-//     output.innerHTML = mensagem;
-// }
